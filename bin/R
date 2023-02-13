@@ -1,7 +1,7 @@
 #!/bin/sh
 # Shell wrapper for R executable.
 
-R_HOME_DIR=/data/data/com.termux/files/home/R/
+R_HOME_DIR=/data/data/com.termux/files/usr/opt/R/
 if test "${R_HOME_DIR}" = "/data/data/com.termux/files/usr/opt/R-4.1.2/lib/R"; then
    case "linux-gnu" in
    linux*)
